@@ -152,36 +152,47 @@ body, select, input, textarea {
   /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
   color: #444;
   /* Set your base font here, to apply evenly */
-  /* font-family: Georgia, serif;  */
+  font-family: "Microsoft YaHei";
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
-a, a:active, a:visited { color: #607890; }
+a, a:active, a:visited { color: #607890; text-decoration:none;}
 a:hover { color: #036; }
-
+.pink,a.pink,a.pink:active, a.pink:visited{color: #ecb9b7;}
+.green,a.green,a.green:active, a.green:visited{color: #8fb931;}
 
 /**
  * Primary styles
  *
- * Author: 
+ * Author: andrew
  */
 
+#container { margin:0 auto; width:1024px; }
+	#index #top {height:50px;position:relative;background: url('../img/home_top_bg.png') no-repeat;}
+	#index #top .userlinks{position:absolute; left:786px; top:32px;}
+	#index #top .userlinks a{font-size:12px;margin-right:32px;}
+	#index #header{height:126px;width:1024px;position:relative;}
+	#index .logo{position:absolute;left:120px;top:10px;}
+	#index .navbar{position:absolute;left:357px;top:64px;height:38px;width:543px;background:url('../img/home_nav_bg.png') no-repeat;width:555px;padding-left:35px;}
+	#index .navbar a{line-height:38px; width:100px; float:left;margin-left:1px; font-size:16px; color:#afa491;}
+	#index .navbar a:hover{color:#8fb931;}
+	.ie6 #index .navbar a{display:inline;}
+	#index #main{height:454px;width:1024px;text-align:center;}
 
+#footer {height:111px;width:1024px; background: #ececec; padding-top:23px;font-family:simsun;}
+#footer div,#footer a,#footer p{color:#afa491; font-size:#12px;text-align:center;}
+#footer .links{width:536px; padding-bottom:5px; margin:0 auto 10px auto;}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* general */
+.hidden{display:none;}
+.absolute{position:absolute;}
+.relative{position:relative;}
+.clear{clear:both;}
+.dashed{background: url('../img/dash.gif') repeat-x bottom left;
+}
+.bignumber{font-size:16px;font-weight:bold;}
 
 /**
  * Non-semantic helper classes: please define your styles before this section.
