@@ -153,6 +153,7 @@ body, select, input, textarea {
   color: #444;
   /* Set your base font here, to apply evenly */
   font-family: "Microsoft YaHei";
+	background: #c0c0c0;
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
@@ -169,7 +170,7 @@ a:hover { color: #8fb931; }
  * Author: andrew
  */
 
-#container { margin:0 auto; width:1024px; }
+#container { margin:0 auto; width:1024px; background:#fff;}
 	#index #top {height:50px;position:relative;background: url('../img/home_top_bg.png') no-repeat;}
 	#index #top .userlinks{position:absolute; left:786px; top:32px;}
 	#index #top .userlinks a{font-size:12px;margin-right:32px;}
@@ -190,17 +191,17 @@ a:hover { color: #8fb931; }
 	.page #top .userlinks .cart{background: url('../img/page_top_cart_icon.png') no-repeat; padding:0 20px 0 18px;}
 	.page #top .userlinks .tel{background: url('../img/page_top_tel_icon.png') no-repeat; padding:0 20px 0 18px;}
 	.page #main{padding-left:94px;}
-	.page #sidebar{width:189px;float:left;}
+	.page #sidebar{width:189px;float:left;padding-left:33px;}
 	.page #sidebar .logo{width:170px;}
 	.page #sidebar .menu{margin-left:24px; width:146px;}
 		.page #sidebar .menu a{float:left; width:100px;line-height:30px;  font-size:11pt;; font-family:"Microsoft YaHei";}
 		.page #sidebar .menu a.current{color: #8fb931;}
 		.page #sidebar .menu a img{float:left;margin-top:1px;}
-	.page #sidebar .submenu{margin-left:20px;}
+	.page #sidebar .submenu{margin-left:20px;display:none;}
 		.page #sidebar .submenu a{font-size:9pt; width:80px;}
 		.ie6 .page #sidebar .submenu{margin-left:10px;}
 		.ie6 .page #sidebar .submenu a{font-size:9pt; width:90px;}
-	.page #content {float:left;background: url('../img/page_content_bg.jpg') no-repeat left top; padding-left:32px;width:497px; line-height:20px;}
+	.page #content {float:left;background: url('../img/page_content_bg.jpg') no-repeat left top; padding-left:82px;width:497px; line-height:20px;}
 	.page #content .page_title{margin-bottom:10px;}
 	.page #content .img{}
 	.page #content .img.border{border:1px solid #d8e7e7; padding:5px; text-align:center;}
