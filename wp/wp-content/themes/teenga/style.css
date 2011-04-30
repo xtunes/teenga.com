@@ -206,7 +206,7 @@ a:hover { color: #8fb931; }
 		.page #sidebar .menu a{float:left; width:100px;line-height:30px;  font-size:11pt;; font-family:"Microsoft YaHei";}
 		.page #sidebar .menu a.current{color: #8fb931;}
 		.page #sidebar .menu a img{float:left;margin-top:1px;}
-	.page #sidebar .submenu{margin-left:20px;display:none;}
+	.page #sidebar .submenu{margin-left:20px;}
 		.page #sidebar .submenu a{font-size:9pt; width:80px;}
 		.ie6 .page #sidebar .submenu{margin-left:10px;}
 		.ie6 .page #sidebar .submenu a{font-size:9pt; width:90px;}
@@ -239,19 +239,19 @@ a:hover { color: #8fb931; }
  *
  * Author: eric
  */
-#page07 #content{width:498px;overflow:hidden;}
+.page2 #content{width:498px;overflow:hidden;}
 .page #content .productlist{list-style:none;margin-left:0;width:560px;}
-.page #content .productlist .item{float:left;padding-right:23px;background: url('../img/page7_line.gif') no-repeat 0 0;width:134px;margin-right:23px;display:inline;margin-top:20px;}
-.page #content .productlist .item .productimg{background: url('../img/page7_border.gif') no-repeat 0 0;width:130px;height:122px;position:relative;}
+.page #content .productlist .item{float:left;padding-right:23px;background: url('img/page7_line.gif') no-repeat 0 0;width:134px;margin-right:23px;display:inline;margin-top:20px;}
+.page #content .productlist .item .productimg{background: url('img/page7_border.gif') no-repeat 0 0;width:130px;height:122px;position:relative;}
 .page #content .productlist .item .productimg img{top:5px;left:5px;position:absolute;}
 .page #content .productlist .item p{text-indent:0 !important;text-align:center;font-size:12px !important;}
 .page #content .productlist .item p span{color:#c02025;}
-.page #content .productlist .item .btn_purchase{background: url('../img/btn_purchase.gif') no-repeat 0 0;display:block;width:66px;height:18px;margin-top:9px;float:left;}
-.page #content .productlist .item .btn_addcart{background: url('../img/btn_addcart.gif') no-repeat 0 0;display:block;width:67px;height:18px;margin-top:9px;float:left;}
+.page #content .productlist .item .btn_purchase{background: url('img/btn_purchase.gif') no-repeat 0 0;display:block;width:66px;height:18px;margin-top:9px;float:left;}
+.page #content .productlist .item .btn_addcart{background: url('img/btn_addcart.gif') no-repeat 0 0;display:block;width:67px;height:18px;margin-top:9px;float:left;}
 .page #content ul.pagenav{list-style:none;float:right;padding-top:37px;}
 .page #content ul.pagenav li{float:left;color:#a0aaab;border-right:1px solid #a0aaab;line-height:14px;padding:0 5px;}
-.page #content ul.pagenav li.pre{background: url('../img/ico_arrow2.gif') no-repeat 0 50%;padding-left:8px;border:0;}
-.page #content ul.pagenav li.next{background: url('../img/ico_arrow.gif') no-repeat 100% 50%;padding-right:8px;border:0;}
+.page #content ul.pagenav li.pre{background: url('img/ico_arrow2.gif') no-repeat 0 50%;padding-left:8px;border:0;}
+.page #content ul.pagenav li.next{background: url('img/ico_arrow.gif') no-repeat 100% 50%;padding-right:8px;border:0;}
 .page #content ul.pagenav li.current{color:#aacd06;}
 .page #content ul.pagenav li.last{border:0;}
 

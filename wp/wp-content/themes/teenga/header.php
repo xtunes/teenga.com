@@ -56,12 +56,12 @@
 ?>
 </head>
 
-<body class="page" id="page01">
+<body class="page" id="<?php the_ID(); ?>">
 
   <div id="container">
     <div id="top">
         <div class="userlinks">
-            <a href="index.html">返回首页</a>|<a href="#">登陆</a>|<a class="cart png_bg" href="#">购物车</a><span class="tel png_bg">服务专线: 400-0510-550</span>
+            <a href="/">返回首页</a>|<a href="#">登陆</a>|<a class="cart png_bg" href="#">购物车</a><span class="tel png_bg">服务专线: 400-0510-550</span>
         </div>
     </div>
     <!--<div id="header"></div>-->

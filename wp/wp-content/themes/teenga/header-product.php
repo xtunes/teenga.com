@@ -1,10 +1,3 @@
-<?php
-/**
- * Template Name: homepage
-
- */
-
-?>
 <!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
@@ -63,61 +56,12 @@
 ?>
 </head>
 
-<body class="home" id="index">
+<body class="page page2" id="page07">
 
   <div id="container">
     <div id="top">
         <div class="userlinks">
-            <a class="signup pink" href="#">免费注册</a>
-            <a class="signin green" href="#">登陆账户</a>
+            <a href="index.html">返回首页</a>|<a href="#">登陆</a>|<a class="cart png_bg" href="#">购物车</a><span class="tel png_bg">服务专线: 400-0510-550</span>
         </div>
     </div>
-    <div id="header">
-        <div class="logo">
-            <img src="img/home_logo.png">
-        </div>
-        <div class="navbar">
-             <a href="/天家农场">天家农场</a>
-             <a href="/安心宣言">安心宣言</a>
-             <a href="/绿色健康">绿色健康</a>
-             <a href="/自然饮食">自然饮食</a>
-             <a href="/网上订购/叶菜类">网上订购</a>
-        </div>
-    </div>
-    <div id="main">
-        <img src="img/home_main.jpg" width="801" height="364" alt="Home Main">
-    </div>
-    <div id="footer">
-        <div class="links dashed">
-            <a href="#">公司介绍</a> | 
-            <a href="#">常见问题</a> | 
-            <a href="#">联系我们</a> | 
-            <a href="#">关于退/换货</a> | 
-            服务专线：<span class="bignumber">400-0510-550</span>
-        </div>
-        <div class="copyright">
-            <p>版权所有： 无锡天易生态农业有限公司 </p>
-            <p>苏ICP备10226898号-1  @2010 All Rights Reserved</p>
-        </div>
-    </div>
-  </div> <!--! end of #container -->
-
-
-  <!-- JavaScript at the bottom for fast page loading -->
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-  <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
-
-
-  <!-- scripts concatenated and minified via ant build script-->
-  <script src="js/plugins.js"></script>
-  <script src="js/script.js"></script>
-  <!-- end scripts-->
-
-
-  <!--[if lt IE 7 ]>
-    <script src="js/libs/dd_belatedpng.js"></script>
-    <script>DD_belatedPNG.fix("img, .png_bg"); // Fix any <img> or .png_bg bg-images. Also, please read goo.gl/mZiyb </script>
-  <![endif]-->
-</body>
-</html>
+    <!--<div id="header"></div>-->

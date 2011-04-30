@@ -13,7 +13,6 @@
     </div>
   </div> <!--! end of #container -->
 
-
   <!-- JavaScript at the bottom for fast page loading -->
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
   <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script> -->
@@ -32,7 +31,6 @@
             }
         });
         $('#sidebar .submenu > a').prepend('· ');
-        $('#sidebar .submenu').hide();
         var sub=$('#sidebar a.current').next();
         if(sub.hasClass('submenu')){
             sub.show();
