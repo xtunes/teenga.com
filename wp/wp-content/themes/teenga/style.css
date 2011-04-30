@@ -225,7 +225,7 @@ a:hover { color: #8fb931; }
 	
 	.page #content p{text-indent:2em;color:#73736d;font-size:10pt;}
 	.page #content h1{color:#9dc24c;font-size:11pt;}
-	.page #content h2{font-weight:bold;font-size:10pt;}
+	.page #content h2{font-weight:bold;font-size:10pt;color:#73736d;}
 
 	.page #footer{margin-top:50px;}
 	
@@ -268,6 +268,7 @@ a:hover { color: #8fb931; }
 .dashed{background: url('img/dash.gif') repeat-x bottom left;
 }
 .bignumber{font-size:16px;font-weight:bold;}
+.w276{width:276px;}
 
 /**
  * Non-semantic helper classes: please define your styles before this section.
