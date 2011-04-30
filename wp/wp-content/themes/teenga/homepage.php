@@ -77,10 +77,10 @@
             <img src="img/home_logo.png">
         </div>
         <div class="navbar">
-             <a href="/天家农场">天家农场</a>
+             <a href="/天家农场/天家介绍">天家农场</a>
              <a href="/安心宣言">安心宣言</a>
-             <a href="/绿色健康">绿色健康</a>
-             <a href="/自然饮食">自然饮食</a>
+             <a href="/绿色健康/转基因食品">绿色健康</a>
+             <a href="/自然饮食/吃出健康">自然饮食</a>
              <a href="/网上订购/叶菜类">网上订购</a>
         </div>
     </div>
