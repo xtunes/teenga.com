@@ -206,7 +206,7 @@ a:hover { color: #8fb931; }
 		.page #sidebar .menu a{float:left; width:100px;line-height:30px;  font-size:11pt;; font-family:"Microsoft YaHei";}
 		.page #sidebar .menu a.current{color: #8fb931;}
 		.page #sidebar .menu a img{float:left;margin-top:1px;}
-	.page #sidebar .submenu{margin-left:20px;}
+	.page #sidebar .submenu{margin-left:20px;display:none;}
 		.page #sidebar .submenu a{font-size:9pt; width:80px;}
 		.ie6 .page #sidebar .submenu{margin-left:10px;}
 		.ie6 .page #sidebar .submenu a{font-size:9pt; width:90px;}

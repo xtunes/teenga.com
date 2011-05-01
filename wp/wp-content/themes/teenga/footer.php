@@ -29,6 +29,20 @@
             if(icon != undefined){
                 $(this).prepend($('<img>').attr('src','img/'+icon))
             }
+            var a=$(this);
+            var href=a.attr('href');
+            if(href.match(new RegExp(page_slug))){
+                a.addClass('current');
+            }
+            var sub=a.next();
+            if(sub.hasClass('submenu')){
+                sub.children().each(function(){
+                    if($(this).attr('href').match(new RegExp(page_slug))){
+                        $(this).addClass('current');
+                        a.addClass('current');
+                    }
+                });
+            }
         });
         $('#sidebar .submenu > a').prepend('· ');
         var sub=$('#sidebar a.current').next();
