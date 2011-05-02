@@ -7,7 +7,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <base href="http://teenga.com/">
+  <base href="<?php echo get_option('home','http://teenga.com/') ?>">
   <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
@@ -36,8 +36,7 @@
   <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
   <link rel="shortcut icon" href="/favicon.ico">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-
+  <link rel="stylesheet" type="text/css" media="all" href="css/style.css" />
   <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
   <script src="js/libs/modernizr-1.7.min.js"></script>
 <?php

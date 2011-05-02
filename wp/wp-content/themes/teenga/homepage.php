@@ -14,7 +14,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <base href="http://teenga.com/">
+  <base href="<?php echo get_option('home','http://teenga.com/') ?>">
   <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.

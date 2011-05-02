@@ -84,35 +84,15 @@
         </div>
         <div id="content">
             <img class="page_title" src="img/page_content_title2.jpg">
-            <h1 class="p1em">·天家安心宣言</h1>
-            <p>天家為大家所提供的食品，是嚴格選用生産製造食物的人本身也敢食用，並且給自己孩子也吃的「負責任可信賴」的食物。</p>
-            <div class="dash_long"></div>
-            <div class="img left">
-                <img src="img/upload/page2_img1.jpg">
+            <div class="slider">
+                <div>
+                    <ul>
+                        <li><img src="img/upload/page2_img1.jpg"></li>
+                        <li><img src="img/upload/page2_img2.jpg"></li>
+                        <li><img src="img/upload/page2_img3.jpg"></li>
+                    </ul>
+                </div>
             </div>
-            <p></p>
-            <p>※2004年4月1日以後,我們修改了農作物栽培合格的標準。</p>
-            <p></p>
-            <p>·天家販賣的生鮮食品相關的所有食品材料在栽培期間，根據栽培管理記錄，栽培確認責任者對栽培狀態、安全性、品質全部進行檢查。</p>
-            <p class="clear p1em">嚴格選用生産製造食物的人本身也敢食用，並且給自己的孩子也吃的「負責任可信賴」的食物。所有販售商品都是通過安全基準檢查。Oisix每樣商品都是通過獨家安全基準和第3機關食品品質監察委員會的食品檢查，當您訂單後,我們才去收成農作物 !!
-            一部分儲藏過後風味更佳的蔬果為例外~</p>
-            <div class="img right">
-                <img src="img/upload/page2_img2.jpg">
-            </div>
-            <div class="dash_middle"></div>
-            <h2 class="p1em">1.天家所嚴選配送的蔬果都是盡量不使用農藥栽培和低濃度農藥的蔬菜水果。 </h2>
-                <p>食品中所含有的農藥對人身體會有影響,所以我們Oisix的產品盡量不使用農藥來栽培耕種! 依照氣候、農產品、地區，也有完全不撒農藥栽培而成的農作物,我們堅持不輕易使用農藥。 如果需要的話,也是使用最少量(對人體不會有影響)!!</p>
-                <p></p>
-            <h2 class="p1em">2.使用有機肥料來孕育土壤,取代化學肥料!!。</h2>
-               <p>天家為了讓您品嘗味道香醇濃厚的蔬菜水果, 孕育田地的土壤是一大關鍵!!</p>
-               <p>由於要用心栽培土壤, 極力不使用化學肥料,利用有機質肥料和堆肥來提供養分,孕育土壤。</p>
-               <p></p>
-            <h2 class="p1em">3.有關我們所販售的蔬菜水果全部都詳細的紀錄栽培情況,簡單管理且公佈公開讓大家也能清楚了解。</h2>
-               <p>我們只販售負責任的蔬果農家!有詳細管理的栽培紀錄表,也能提供顧客們簡單明瞭的資訊!</p>
-               <p>還有,農家們也保證製作「能夠放心地讓自己的孩子食用的食品材料」(和我們天家共同理念)。</p>
-             <div class="dash_middle"></div>
-             <p class="clear"> 嚴格選用生産製造食物的人本身也敢食用，並且給自己的孩子也吃的「負責任可信賴」的食物。所有販售商品都是通過安全基準檢查。Oisix每樣商品都是通過獨家安全基準和第3機關食品品質監察委員會的食品檢查，當您訂單後,我們才去收成農作物 !!
-             一部分儲藏過後風味更佳的蔬果為例外~</p>
         </div>
         <div class="clear"></div>
     </div>
@@ -141,6 +121,7 @@
   <!-- scripts concatenated and minified via ant build script-->
   <script src="js/plugins.js"></script>
   <script src="js/script.js"></script>
+  <script src="js/libs/jquery.anythingslider.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript" charset="utf-8">
     $(function($){
         $('#sidebar .menu > a').each(function(i){
@@ -157,6 +138,21 @@
         }
          // $('#sidebar .menu > a').last().removeClass('dashed');
     })
+    if ( $('.slider').length == 1 && $('.slider li').length > 1 ) {
+      $('.slider').anythingSlider({
+        easing: "swing",                // Anything other than "linear" or "swing" requires the easing plugin
+        autoPlay: true,                 // This turns off the entire FUNCTIONALY, not just if it starts running or not
+        startStopped: false,            // If autoPlay is on, this can force it to start stopped
+        delay: 3000,                    // How long between slide transitions in AutoPlay mode
+        animationTime: 600,            // How long the slide transition takes
+        hashTags: false,                // Should links change the hashtag in the URL?
+        buildNavigation: true,          // If true, builds and list of anchor links to link to each slide
+        pauseOnHover: false,             // If true, and autoPlay is enabled, the show will pause on hover
+        startText: "",             // Start text
+        stopText: "",               // Stop text
+        navigationFormatter: null       // Details at the top of the file on this use (advanced use)
+      });
+    }
   </script>
   <!-- end scripts-->
 

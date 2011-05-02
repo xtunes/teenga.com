@@ -17,7 +17,7 @@
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
   <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script> -->
   <script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
-
+  <script src="js/libs/jquery.anythingslider.js" ></script>
 
   <!-- scripts concatenated and minified via ant build script-->
   <script src="js/plugins.js"></script>
@@ -49,7 +49,21 @@
         if(sub.hasClass('submenu')){
             sub.show();
         }
-         // $('#sidebar .menu > a').last().removeClass('dashed');
+        if ( $('.slider').length == 1 && $('.slider li').length > 1 ) {
+          $('.slider').anythingSlider({
+            easing: "swing",                // Anything other than "linear" or "swing" requires the easing plugin
+            autoPlay: true,                 // This turns off the entire FUNCTIONALY, not just if it starts running or not
+            startStopped: false,            // If autoPlay is on, this can force it to start stopped
+            delay: 3000,                    // How long between slide transitions in AutoPlay mode
+            animationTime: 600,            // How long the slide transition takes
+            hashTags: false,                // Should links change the hashtag in the URL?
+            buildNavigation: true,          // If true, builds and list of anchor links to link to each slide
+            pauseOnHover: false,             // If true, and autoPlay is enabled, the show will pause on hover
+            startText: "",             // Start text
+            stopText: "",               // Stop text
+            navigationFormatter: null       // Details at the top of the file on this use (advanced use)
+          });
+        }
     })
   </script>
   <!-- end scripts-->

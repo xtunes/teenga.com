@@ -229,16 +229,10 @@ a:hover { color: #8fb931; }
 
 	.page #footer{margin-top:50px;}
 	
-	
 #footer {height:111px;width:1024px; background: #ececec; padding-top:23px;font-family:simsun;}
 #footer div,#footer a,#footer p{color:#afa491; font-size:#12px;text-align:center;}
 #footer .links{width:536px; padding-bottom:5px; margin:0 auto 10px auto;}
 
-/**
- * Primary styles
- *
- * Author: eric
- */
 .page2 #content{width:498px;overflow:hidden;}
 .page #content .productlist{list-style:none;margin-left:0;width:560px;}
 .page #content .productlist .item{float:left;padding-right:23px;background: url('img/page7_line.gif') no-repeat 0 0;width:134px;margin-right:23px;display:inline;margin-top:20px;}
@@ -254,6 +248,11 @@ a:hover { color: #8fb931; }
 .page #content ul.pagenav li.next{background: url('img/ico_arrow.gif') no-repeat 100% 50%;padding-right:8px;border:0;}
 .page #content ul.pagenav li.current{color:#aacd06;}
 .page #content ul.pagenav li.last{border:0;}
+.page #content .slider{padding-top:20px;width: 500px; position:relative;}
+.page #content .slider ul {width:4880px;height: 700px;float:left; }
+.page #content .slider li {float:left;}
+.page #content #thumbNav { position:absolute; left: 20px; top: 10px; }
+.page #content .arrow {display:none;}
 
 /* general */
 .left{float:left;}
@@ -269,6 +268,10 @@ a:hover { color: #8fb931; }
 }
 .bignumber{font-size:16px;font-weight:bold;}
 .w276{width:276px;}
+.slider ul{margin:0;}
+.slider li{list-style:none;}
+.slider #thumbNav a { margin: 0 5px 0 0; width: 12px; height: 12px; background: transparent url('/img/slider_pager.png') 0 0 no-repeat; float:left; text-indent:-9999px;}
+.slider #thumbNav a.cur {background: transparent url('/img/slider_pager_active.png') 0 0 no-repeat; }
 
 /**
  * Non-semantic helper classes: please define your styles before this section.
