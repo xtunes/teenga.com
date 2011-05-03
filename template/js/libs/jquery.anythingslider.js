@@ -161,7 +161,7 @@
 			base.$nav = $("<div id='thumbNav'></div>").appendTo(base.$el);
 			base.$items.each(function(i,el){
 				var index = i + 1;
-				var $a = $("<a href='#'></a>");
+				var $a = $("<a href='#' class='pager"+index+"'></a>");
 				
 				// If a formatter function is present, use it
 				if( typeof(base.options.navigationFormatter) == "function"){
