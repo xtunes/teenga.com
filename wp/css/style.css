@@ -252,9 +252,6 @@ a:hover { color: #8fb931; }
 .page #content .slider li {float:left;}
 .page #content #thumbNav { position:absolute; left: 20px; top: 10px; }
 .page #content .arrow {display:none;}
-.pager1{background: url('../img/slider_pager1.png') no-repeat 0 0;}
-.pager2{background: url('../img/slider_pager2.png') no-repeat 0 0;}
-.pager3{background: url('../img/slider_pager3.png') no-repeat 0 0;}
 
 /* general */
 .left{float:left;}
@@ -273,7 +270,9 @@ a:hover { color: #8fb931; }
 .slider ul{margin:0;}
 .slider li{list-style:none;}
 .slider #thumbNav a { margin: 0 5px 0 0; width: 12px; height: 12px; background: transparent url('/../img/slider_pager.png') 0 0 no-repeat; float:left; text-indent:-9999px;}
-.slider #thumbNav a.cur {background: transparent url('/../img/slider_pager_active.png') 0 0 no-repeat; }
+.slider #thumbNav a.pager1 {background: url('../img/slider_pager1.png') no-repeat 0 0;}
+.slider #thumbNav a.pager2 {background: url('../img/slider_pager2.png') no-repeat 0 0;}
+.slider #thumbNav a.pager3 {background: url('../img/slider_pager3.png') no-repeat 0 0;}
 
 /**
  * Non-semantic helper classes: please define your styles before this section.

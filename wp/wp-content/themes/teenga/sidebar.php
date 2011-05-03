@@ -8,7 +8,7 @@
 </script>
      <div id="sidebar">
             <div class="logo dashed">
-                <img src="img/page_logo.jpg">
+                <a href="/"><img src="img/page_logo.jpg"></a>
             </div>
             <div class="menu">                
                 <a icon="page_side_icon1.gif" class="dashed" href="/天家农场/天家介绍">天家农场</a>
