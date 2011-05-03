@@ -184,7 +184,7 @@ a:hover { color: #8fb931; }
 	#index #top .userlinks{position:absolute; left:786px; top:32px;}
 	#index #top .userlinks a{font-size:12px;margin-right:32px;}
 	#index #header{height:126px;width:1024px;position:relative;}
-	#index .logo{position:absolute;left:120px;top:10px;}
+	#index .logo{position:absolute;left:120px;top:9px;}
 	#index .navbar{position:absolute;left:357px;top:64px;height:38px;width:543px;background:url('../img/home_nav_bg.png') no-repeat;width:555px;padding-left:35px;}
 	#index .navbar a{line-height:38px; width:100px; float:left;margin-left:1px; font-size:16px; color:#afa491;}
 	#index .navbar a:hover{color:#8fb931;}
@@ -210,7 +210,7 @@ a:hover { color: #8fb931; }
 		.page #sidebar .submenu a{font-size:9pt; width:80px;}
 		.ie6 .page #sidebar .submenu{margin-left:10px;}
 		.ie6 .page #sidebar .submenu a{font-size:9pt; width:90px;}
-	.page #content {float:left;background: url('../img/page_content_bg.jpg') no-repeat left top; padding-left:82px;width:497px; line-height:20px;}
+	.page #content {float:left;background: url('../img/page_content_bg.jpg') no-repeat left top; padding-left:82px;width:498px; line-height:20px;overflow:hidden;}
 	.page #content .page_title{margin-bottom:10px;}
 	.page #content .img{}
 	.page #content .img.border{border:1px solid #d8e7e7; padding:5px; text-align:center;}
@@ -233,7 +233,6 @@ a:hover { color: #8fb931; }
 #footer div,#footer a,#footer p{color:#afa491; font-size:#12px;text-align:center;}
 #footer .links{width:536px; padding-bottom:5px; margin:0 auto 10px auto;}
 
-.page2 #content{width:498px;overflow:hidden;}
 .page #content .productlist{list-style:none;margin-left:0;width:560px;}
 .page #content .productlist .item{float:left;padding-right:23px;background: url('../img/page7_line.gif') no-repeat 0 0;width:134px;margin-right:23px;display:inline;margin-top:20px;}
 .page #content .productlist .item .productimg{background: url('../img/page7_border.gif') no-repeat 0 0;width:130px;height:122px;position:relative;}
@@ -253,6 +252,9 @@ a:hover { color: #8fb931; }
 .page #content .slider li {float:left;}
 .page #content #thumbNav { position:absolute; left: 20px; top: 10px; }
 .page #content .arrow {display:none;}
+.pager1{background: url('../img/slider_pager1.png') no-repeat 0 0;}
+.pager2{background: url('../img/slider_pager2.png') no-repeat 0 0;}
+.pager3{background: url('../img/slider_pager3.png') no-repeat 0 0;}
 
 /* general */
 .left{float:left;}

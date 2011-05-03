@@ -184,7 +184,7 @@ a:hover { color: #8fb931; }
 	#index #top .userlinks{position:absolute; left:786px; top:32px;}
 	#index #top .userlinks a{font-size:12px;margin-right:32px;}
 	#index #header{height:126px;width:1024px;position:relative;}
-	#index .logo{position:absolute;left:120px;top:10px;}
+	#index .logo{position:absolute;left:120px;top:9px;}
 	#index .navbar{position:absolute;left:357px;top:64px;height:38px;width:543px;background:url('../img/home_nav_bg.png') no-repeat;width:555px;padding-left:35px;}
 	#index .navbar a{line-height:38px; width:100px; float:left;margin-left:1px; font-size:16px; color:#afa491;}
 	#index .navbar a:hover{color:#8fb931;}
